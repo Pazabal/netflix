@@ -60,11 +60,11 @@ export default () => {
       ))}
       </section>
 
-      <footer>
+      {/* <footer>
         Neftlix Reserves All Rights.<br/><br/>
         Developed by: <a href='http://vitorrrocha.github.io/'>Vitor A. B. Rocha</a> to study react<span role='img' aria-label='computer'>💻</span>.<br />
         Data extracted at https://www.themoviedb.org/<br/>
-      </footer>
+      </footer> */}
       
       {movieList.length <= 0 &&
       <div className='loading'>
